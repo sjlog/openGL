@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA90D4651851A7B40047E9EC /* Polygon.m in Sources */ = {isa = PBXBuildFile; fileRef = EA90D4641851A7B40047E9EC /* Polygon.m */; };
 		EABAE1F21851962E00CB70EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EABAE1F11851962E00CB70EE /* Foundation.framework */; };
 		EABAE1F41851962E00CB70EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EABAE1F31851962E00CB70EE /* CoreGraphics.framework */; };
 		EABAE1F61851962E00CB70EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EABAE1F51851962E00CB70EE /* UIKit.framework */; };
@@ -19,6 +20,13 @@
 		EABAE20D1851962F00CB70EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EABAE1F51851962E00CB70EE /* UIKit.framework */; };
 		EABAE2151851962F00CB70EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EABAE2131851962F00CB70EE /* InfoPlist.strings */; };
 		EABAE2171851962F00CB70EE /* OpenGLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EABAE2161851962F00CB70EE /* OpenGLTests.m */; };
+		EABAE22218519C2900CB70EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EABAE22118519C2900CB70EE /* ViewController.m */; };
+		EABAE22418519C9200CB70EE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EABAE22318519C9200CB70EE /* OpenGLES.framework */; };
+		EABAE22618519C9700CB70EE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EABAE22518519C9700CB70EE /* QuartzCore.framework */; };
+		EABAE22918519D2500CB70EE /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = EABAE22818519D2500CB70EE /* EAGLView.m */; };
+		EAC3CF4918555C0D007E24DB /* checkerplate.png in Resources */ = {isa = PBXBuildFile; fileRef = EAC3CF4818555C0D007E24DB /* checkerplate.png */; };
+		EAC3CF4B18556628007E24DB /* fly.png in Resources */ = {isa = PBXBuildFile; fileRef = EAC3CF4A18556628007E24DB /* fly.png */; };
+		EAC3CF4D185580CC007E24DB /* floor.png in Resources */ = {isa = PBXBuildFile; fileRef = EAC3CF4C185580CC007E24DB /* floor.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA90D4631851A7B40047E9EC /* Polygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Polygon.h; sourceTree = "<group>"; };
+		EA90D4641851A7B40047E9EC /* Polygon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Polygon.m; sourceTree = "<group>"; };
 		EABAE1EE1851962E00CB70EE /* OpenGL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EABAE1F11851962E00CB70EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EABAE1F31851962E00CB70EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +58,15 @@
 		EABAE2121851962F00CB70EE /* OpenGLTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenGLTests-Info.plist"; sourceTree = "<group>"; };
 		EABAE2141851962F00CB70EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EABAE2161851962F00CB70EE /* OpenGLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLTests.m; sourceTree = "<group>"; };
+		EABAE22018519C2900CB70EE /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EABAE22118519C2900CB70EE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EABAE22318519C9200CB70EE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		EABAE22518519C9700CB70EE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EABAE22718519D2500CB70EE /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		EABAE22818519D2500CB70EE /* EAGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
+		EAC3CF4818555C0D007E24DB /* checkerplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkerplate.png; sourceTree = "<group>"; };
+		EAC3CF4A18556628007E24DB /* fly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fly.png; sourceTree = "<group>"; };
+		EAC3CF4C185580CC007E24DB /* floor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = floor.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EABAE22618519C9700CB70EE /* QuartzCore.framework in Frameworks */,
+				EABAE22418519C9200CB70EE /* OpenGLES.framework in Frameworks */,
 				EABAE1F41851962E00CB70EE /* CoreGraphics.framework in Frameworks */,
 				EABAE1F61851962E00CB70EE /* UIKit.framework in Frameworks */,
 				EABAE1F21851962E00CB70EE /* Foundation.framework in Frameworks */,
@@ -96,6 +117,8 @@
 		EABAE1F01851962E00CB70EE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EABAE22518519C9700CB70EE /* QuartzCore.framework */,
+				EABAE22318519C9200CB70EE /* OpenGLES.framework */,
 				EABAE1F11851962E00CB70EE /* Foundation.framework */,
 				EABAE1F31851962E00CB70EE /* CoreGraphics.framework */,
 				EABAE1F51851962E00CB70EE /* UIKit.framework */,
@@ -107,10 +130,19 @@
 		EABAE1F71851962E00CB70EE /* OpenGL */ = {
 			isa = PBXGroup;
 			children = (
+				EAC3CF4C185580CC007E24DB /* floor.png */,
+				EAC3CF4A18556628007E24DB /* fly.png */,
+				EAC3CF4818555C0D007E24DB /* checkerplate.png */,
 				EABAE2001851962E00CB70EE /* AppDelegate.h */,
 				EABAE2011851962E00CB70EE /* AppDelegate.m */,
 				EABAE2031851962E00CB70EE /* Images.xcassets */,
 				EABAE1F81851962E00CB70EE /* Supporting Files */,
+				EABAE22018519C2900CB70EE /* ViewController.h */,
+				EABAE22118519C2900CB70EE /* ViewController.m */,
+				EABAE22718519D2500CB70EE /* EAGLView.h */,
+				EABAE22818519D2500CB70EE /* EAGLView.m */,
+				EA90D4631851A7B40047E9EC /* Polygon.h */,
+				EA90D4641851A7B40047E9EC /* Polygon.m */,
 			);
 			path = OpenGL;
 			sourceTree = "<group>";
@@ -220,6 +252,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EABAE1FC1851962E00CB70EE /* InfoPlist.strings in Resources */,
+				EAC3CF4B18556628007E24DB /* fly.png in Resources */,
+				EAC3CF4918555C0D007E24DB /* checkerplate.png in Resources */,
+				EAC3CF4D185580CC007E24DB /* floor.png in Resources */,
 				EABAE2041851962E00CB70EE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +274,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA90D4651851A7B40047E9EC /* Polygon.m in Sources */,
+				EABAE22218519C2900CB70EE /* ViewController.m in Sources */,
+				EABAE22918519D2500CB70EE /* EAGLView.m in Sources */,
 				EABAE2021851962E00CB70EE /* AppDelegate.m in Sources */,
 				EABAE1FE1851962E00CB70EE /* main.m in Sources */,
 			);
@@ -441,6 +479,7 @@
 				EABAE21C1851962F00CB70EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EABAE21D1851962F00CB70EE /* Build configuration list for PBXNativeTarget "OpenGLTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +488,7 @@
 				EABAE21F1851962F00CB70EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
